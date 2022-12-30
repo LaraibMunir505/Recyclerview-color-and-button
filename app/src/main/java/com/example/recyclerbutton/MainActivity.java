@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 list.add(new MyMovieData("Hulk","2003 film",R.drawable.hulk,"#FF018786"));
                 list.add(new MyMovieData("Avatar","2009 film",R.drawable.avatar,"#FF3700B3"));
 
-
                 LinearLayoutManager obj = new LinearLayoutManager(this);
                 recyclerView.setLayoutManager(obj);
                 adapter = new MyMovieAdapter(list,MainActivity.this);
